@@ -7,9 +7,20 @@ const Cart = () => {
     console.log(ctx)
     
     console.log(ctx.AllItem)
+    let products = ctx.AllItem; 
+
 
   return (
     <div>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Sn.
+            </th>
+          </tr>
+        </thead>
+      </table>
       
     </div>
   )
